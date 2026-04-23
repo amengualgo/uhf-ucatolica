@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonEditText">
+        <!--填充颜色-->
+        <attr name="cet_normalFillColor" format="color" />
+        <!--焦点填充颜色-->
+        <attr name="cet_focusedFillColor" format="color" />
+        <!--不可编辑填充颜色-->
+        <attr name="cet_notEnabledFillColor" format="color" />
+        <!--描边颜色-->
+        <attr name="cet_strokeColor" format="color" />
+        <!--描边焦点颜色-->
+        <attr name="cet_strokeFocusedColor" format="color" />
+        <!--描边不可编辑颜色-->
+        <attr name="cet_strokeNotEnabledColor" format="color" />
+        <!--描边宽度-->
+        <attr name="cet_strokeWidth" format="dimension" />
+        <!--圆角大小-->
+        <attr name="cet_cornerRadius" format="dimension" />
+        <!--圆角位置-->
+        <attr name="cet_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+        <!--渐变开始颜色-->
+        <attr name="cet_startColor" format="color" />
+        <!--渐变结束颜色-->
+        <attr name="cet_endColor" format="color" />
+        <!--渐变方向-->
+        <attr name="cet_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeLinearLayout">
+        <!--填充颜色-->
+        <attr name="sll_fillColor" format="color" />
+        <!--描边颜色-->
+        <attr name="sll_strokeColor" format="color" />
+        <!--描边宽度-->
+        <attr name="sll_strokeWidth" format="dimension" />
+        <!--圆角大小-->
+        <attr name="sll_cornerRadius" format="dimension" />
+        <!--圆角位置-->
+        <attr name="sll_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+        <!--渐变开始颜色-->
+        <attr name="sll_startColor" format="color" />
+        <!--渐变结束颜色-->
+        <attr name="sll_endColor" format="color" />
+        <!--渐变方向-->
+        <attr name="sll_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeRelativeLayout">
+        <!--填充颜色-->
+        <attr name="srl_fillColor" format="color" />
+        <!--描边颜色-->
+        <attr name="srl_strokeColor" format="color" />
+        <!--描边宽度-->
+        <attr name="srl_strokeWidth" format="dimension" />
+        <!--圆角大小-->
+        <attr name="srl_cornerRadius" format="dimension" />
+        <!--圆角位置-->
+        <attr name="srl_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+        <!--渐变开始颜色-->
+        <attr name="srl_startColor" format="color" />
+        <!--渐变结束颜色-->
+        <attr name="srl_endColor" format="color" />
+        <!--渐变方向-->
+        <attr name="srl_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

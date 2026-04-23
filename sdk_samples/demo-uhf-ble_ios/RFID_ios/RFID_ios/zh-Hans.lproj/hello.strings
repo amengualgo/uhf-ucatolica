@@ -1,0 +1,10 @@
+/* 
+  hello.strings
+  RFID_ios
+
+  Created by hjl on 2018/10/22.
+  Copyright © 2018年 . All rights reserved.
+*/
+"invite" ="你好 atany,快来加入我们吧！";
+
+"buttonInfo" ="切换语言";

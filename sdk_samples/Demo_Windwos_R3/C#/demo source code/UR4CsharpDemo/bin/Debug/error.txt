@@ -1,0 +1,80 @@
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-04 05:53:29
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 04:22:40
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 04:23:12
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 05:53:34
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 05:55:28
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 05:56:13
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 05:56:55
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-05 05:57:16
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id) 位置 D:\APP2\windows\UR4_A4_R3\UR4\demo\UR4CsharpDemo\MainForm.cs:行号 61
+-----------------------end----------------------------

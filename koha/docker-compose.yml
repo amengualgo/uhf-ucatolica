@@ -1,0 +1,29 @@
+services:
+  koha:
+    build: .
+    image: koha-ils:latest
+    container_name: koha_app
+    ports:
+      - "8081:80"
+      - "8082:8080"
+    volumes:
+      - koha_data:/var/lib/koha
+      - koha_logs:/var/log/koha
+      - koha_db:/var/lib/mysql
+      - koha_etc:/etc/koha
+    cap_add:
+      - SETUID
+      - SETGID
+    networks:
+      - proxy-net
+    restart: unless-stopped
+
+volumes:
+  koha_data:
+  koha_logs:
+  koha_db:
+  koha_etc:
+
+networks:
+  proxy-net:
+    external: true

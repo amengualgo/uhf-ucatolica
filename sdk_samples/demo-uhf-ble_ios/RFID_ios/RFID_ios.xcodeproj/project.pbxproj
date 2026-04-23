@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041625A724BAC0CD00276999 /* ModifyBluetoothNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041625A624BAC0CD00276999 /* ModifyBluetoothNameView.m */; };
+		04BCB00A23406B2B00322E85 /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCB00923406B2B00322E85 /* AppHelper.m */; };
+		04C3854C253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3854B253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.m */; };
+		5249A844B613D09B926BD5AB /* libPods-RFID_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1FF89AA297D48B4665BE84 /* libPods-RFID_ios.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		689A0F5F217D777D00DF0E4C /* hello.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689A0F61217D777D00DF0E4C /* hello.strings */; };
+		689A0F67217D7E0400DF0E4C /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A0F66217D7E0400DF0E4C /* InternationalControl.m */; };
+		68A7A66F218836D7006310C2 /* QRcodeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A7A66E218836D7006310C2 /* QRcodeViewCell.m */; };
+		68AA78142192FF56000D9136 /* LockChooseeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AA78132192FF56000D9136 /* LockChooseeView.m */; };
+		68ABD44821796B9100CC2D02 /* QRcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ABD44721796B9100CC2D02 /* QRcodeView.m */; };
+		68CBFCBD2A9C846A00DDECC8 /* UHFTagInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CBFCBC2A9C846A00DDECC8 /* UHFTagInfo.m */; };
+		DA088C2F22B77A080029981E /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA088C2E22B77A080029981E /* ScanView.m */; };
+		DA65149422B254A300B16E71 /* 苍蝇拍 V2.02 .bin in Resources */ = {isa = PBXBuildFile; fileRef = DA65149322B254A300B16E71 /* 苍蝇拍 V2.02 .bin */; };
+		DA65149622B254BB00B16E71 /* Reader_v2_0_4.bin in Resources */ = {isa = PBXBuildFile; fileRef = DA65149522B254BB00B16E71 /* Reader_v2_0_4.bin */; };
+		DA8730A520A3DF4C00785F39 /* ScanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8730A420A3DF4C00785F39 /* ScanViewCell.m */; };
+		DA88F9432091A67800AE525C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9422091A67800AE525C /* AppDelegate.m */; };
+		DA88F9462091A67800AE525C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9452091A67800AE525C /* ViewController.m */; };
+		DA88F9492091A67800AE525C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA88F9472091A67800AE525C /* Main.storyboard */; };
+		DA88F94B2091A67800AE525C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA88F94A2091A67800AE525C /* Assets.xcassets */; };
+		DA88F94E2091A67800AE525C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA88F94C2091A67800AE525C /* LaunchScreen.storyboard */; };
+		DA88F9512091A67800AE525C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9502091A67800AE525C /* main.m */; };
+		DA88F95B2091A67800AE525C /* RFID_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F95A2091A67800AE525C /* RFID_iosTests.m */; };
+		DA88F9662091A67900AE525C /* RFID_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9652091A67900AE525C /* RFID_iosUITests.m */; };
+		DA88F9752091A92700AE525C /* RFIDBlutoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9742091A92700AE525C /* RFIDBlutoothManager.m */; };
+		DA88F9782091B66A00AE525C /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9772091B66A00AE525C /* BLEModel.m */; };
+		DA88F97B2091B6AC00AE525C /* BluetoothUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F97A2091B6AC00AE525C /* BluetoothUtil.m */; };
+		DA88F97E2091B9CD00AE525C /* BSprogreUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F97D2091B9CD00AE525C /* BSprogreUtil.m */; };
+		DA88F9812091C0A900AE525C /* CustomNaviAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9802091C0A900AE525C /* CustomNaviAlertView.m */; };
+		DA88F9842091C2B300AE525C /* ShadeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9832091C2B300AE525C /* ShadeCell.m */; };
+		DA88F9872091C45100AE525C /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9862091C45100AE525C /* TopView.m */; };
+		DA88F98D2091D6D300AE525C /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F98C2091D6D300AE525C /* SettingView.m */; };
+		DA88F9902091D71100AE525C /* EncryptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F98F2091D71100AE525C /* EncryptionView.m */; };
+		DA88F9932091D72800AE525C /* USERView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9922091D72800AE525C /* USERView.m */; };
+		DA88F9962091D73C00AE525C /* ReadMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9952091D73C00AE525C /* ReadMessageView.m */; };
+		DA88F9992091D74A00AE525C /* WriteMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9982091D74A00AE525C /* WriteMessageView.m */; };
+		DA88F99C2091D76600AE525C /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F99B2091D76600AE525C /* LockView.m */; };
+		DA88F99F2091D78800AE525C /* KillView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F99E2091D78800AE525C /* KillView.m */; };
+		DA88F9A22091D7AE00AE525C /* UpgradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88F9A12091D7AE00AE525C /* UpgradeView.m */; };
+		DAA62F95209328500054715C /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA62F94209328500054715C /* ChooseView.m */; };
+		DAE55456224362220096F0F2 /* Reader.bin in Resources */ = {isa = PBXBuildFile; fileRef = DAE55455224362220096F0F2 /* Reader.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68CBFCB22A9C463100DDECC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98527D7196957AAB07B79E2E2AFDE23E;
+			remoteInfo = IQKeyboardManager;
+		};
+		68CBFCB82A9C463100DDECC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98527D7196957AAB07B79E2E2AFDE23E;
+			remoteInfo = IQKeyboardManager;
+		};
+		DA2720A626D5CE6400ECCA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA09611511D71D0658FEC141C9E59DC7;
+			remoteInfo = Masonry;
+		};
+		DA2720A826D5CE6400ECCA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7746FF647A957FE725DFBC596E6C51;
+			remoteInfo = MBProgressHUD;
+		};
+		DA2720AA26D5CE6400ECCA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F6C7764B296FD00828CB55A29023EE;
+			remoteInfo = "Pods-RFID_ios";
+		};
+		DA88F9572091A67800AE525C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA88F9362091A67800AE525C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA88F93D2091A67800AE525C;
+			remoteInfo = RFID_ios;
+		};
+		DA88F9622091A67900AE525C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA88F9362091A67800AE525C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA88F93D2091A67800AE525C;
+			remoteInfo = RFID_ios;
+		};
+		DADE3FF926DA2E9800A17EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA09611511D71D0658FEC141C9E59DC7;
+			remoteInfo = Masonry;
+		};
+		DADE3FFB26DA2E9800A17EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7746FF647A957FE725DFBC596E6C51;
+			remoteInfo = MBProgressHUD;
+		};
+		DADE3FFD26DA2E9800A17EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 90F6C7764B296FD00828CB55A29023EE;
+			remoteInfo = "Pods-RFID_ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041625A524BAC0CD00276999 /* ModifyBluetoothNameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyBluetoothNameView.h; sourceTree = "<group>"; };
+		041625A624BAC0CD00276999 /* ModifyBluetoothNameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyBluetoothNameView.m; sourceTree = "<group>"; };
+		04BCB00823406B2B00322E85 /* AppHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
+		04BCB00923406B2B00322E85 /* AppHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
+		04C3854A253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeScanTypeSelectBtn.h; sourceTree = "<group>"; };
+		04C3854B253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanTypeSelectBtn.m; sourceTree = "<group>"; };
+		689A0F60217D777D00DF0E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/hello.strings; sourceTree = "<group>"; };
+		689A0F62217D786900DF0E4C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/hello.strings"; sourceTree = "<group>"; };
+		689A0F63217D786900DF0E4C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		689A0F64217D786900DF0E4C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		689A0F65217D7E0400DF0E4C /* InternationalControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
+		689A0F66217D7E0400DF0E4C /* InternationalControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
+		68A7A66D218836D7006310C2 /* QRcodeViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRcodeViewCell.h; sourceTree = "<group>"; };
+		68A7A66E218836D7006310C2 /* QRcodeViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeViewCell.m; sourceTree = "<group>"; };
+		68AA78122192FF56000D9136 /* LockChooseeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockChooseeView.h; sourceTree = "<group>"; };
+		68AA78132192FF56000D9136 /* LockChooseeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockChooseeView.m; sourceTree = "<group>"; };
+		68ABD44621796B9100CC2D02 /* QRcodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRcodeView.h; sourceTree = "<group>"; };
+		68ABD44721796B9100CC2D02 /* QRcodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeView.m; sourceTree = "<group>"; };
+		68CBFCBB2A9C846A00DDECC8 /* UHFTagInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UHFTagInfo.h; sourceTree = "<group>"; };
+		68CBFCBC2A9C846A00DDECC8 /* UHFTagInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UHFTagInfo.m; sourceTree = "<group>"; };
+		BB1FF89AA297D48B4665BE84 /* libPods-RFID_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFID_ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6226E0A339F887DE8D8DEF4 /* Pods-RFID_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFID_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFID_ios/Pods-RFID_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		DA088C2D22B77A080029981E /* ScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		DA088C2E22B77A080029981E /* ScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
+		DA271FF726D5CE6400ECCA13 /* IQBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		DA271FF826D5CE6400ECCA13 /* IQKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		DA271FF926D5CE6400ECCA13 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		DA271FFA26D5CE6400ECCA13 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		DA271FFB26D5CE6400ECCA13 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		DA271FFC26D5CE6400ECCA13 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		DA271FFD26D5CE6400ECCA13 /* IQTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		DA271FFE26D5CE6400ECCA13 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		DA271FFF26D5CE6400ECCA13 /* IQToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		DA27200026D5CE6400ECCA13 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		DA27200126D5CE6400ECCA13 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		DA27200226D5CE6400ECCA13 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DA27200326D5CE6400ECCA13 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		DA27200426D5CE6400ECCA13 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		DA27200526D5CE6400ECCA13 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		DA27200626D5CE6400ECCA13 /* KeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		DA27200826D5CE6400ECCA13 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DA27200926D5CE6400ECCA13 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DA27200A26D5CE6400ECCA13 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DA27200B26D5CE6400ECCA13 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DA27200C26D5CE6400ECCA13 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DA27200D26D5CE6400ECCA13 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DA27200E26D5CE6400ECCA13 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DA27200F26D5CE6400ECCA13 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DA27201026D5CE6400ECCA13 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DA27201126D5CE6400ECCA13 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27201226D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27201326D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DA27201426D5CE6400ECCA13 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27201526D5CE6400ECCA13 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27201626D5CE6400ECCA13 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27201826D5CE6400ECCA13 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA27201B26D5CE6400ECCA13 /* IQBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		DA27201C26D5CE6400ECCA13 /* IQKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		DA27201D26D5CE6400ECCA13 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		DA27201E26D5CE6400ECCA13 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		DA27201F26D5CE6400ECCA13 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		DA27202026D5CE6400ECCA13 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		DA27202126D5CE6400ECCA13 /* IQTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		DA27202226D5CE6400ECCA13 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		DA27202326D5CE6400ECCA13 /* IQToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		DA27202426D5CE6400ECCA13 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		DA27202526D5CE6400ECCA13 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		DA27202626D5CE6400ECCA13 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DA27202726D5CE6400ECCA13 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		DA27202826D5CE6400ECCA13 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		DA27202926D5CE6400ECCA13 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		DA27202A26D5CE6400ECCA13 /* KeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		DA27202C26D5CE6400ECCA13 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DA27202D26D5CE6400ECCA13 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DA27202E26D5CE6400ECCA13 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DA27202F26D5CE6400ECCA13 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DA27203026D5CE6400ECCA13 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DA27203126D5CE6400ECCA13 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DA27203226D5CE6400ECCA13 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DA27203326D5CE6400ECCA13 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DA27203426D5CE6400ECCA13 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DA27203526D5CE6400ECCA13 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27203626D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27203726D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DA27203826D5CE6400ECCA13 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27203926D5CE6400ECCA13 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27203A26D5CE6400ECCA13 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27203C26D5CE6400ECCA13 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA27206526D5CE6400ECCA13 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		DA27206726D5CE6400ECCA13 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA27206926D5CE6400ECCA13 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DA27206A26D5CE6400ECCA13 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DA27206B26D5CE6400ECCA13 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DA27206C26D5CE6400ECCA13 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DA27206D26D5CE6400ECCA13 /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		DA27206E26D5CE6400ECCA13 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DA27206F26D5CE6400ECCA13 /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		DA27207026D5CE6400ECCA13 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DA27207126D5CE6400ECCA13 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		DA27207226D5CE6400ECCA13 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DA27207326D5CE6400ECCA13 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DA27207426D5CE6400ECCA13 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DA27207526D5CE6400ECCA13 /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		DA27207626D5CE6400ECCA13 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DA27207726D5CE6400ECCA13 /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		DA27207826D5CE6400ECCA13 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27207926D5CE6400ECCA13 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DA27207A26D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27207B26D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DA27207C26D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DA27207D26D5CE6400ECCA13 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27207E26D5CE6400ECCA13 /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		DA27207F26D5CE6400ECCA13 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DA27208026D5CE6400ECCA13 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DA27208126D5CE6400ECCA13 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		DA27208226D5CE6400ECCA13 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA27208426D5CE6400ECCA13 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA27208526D5CE6400ECCA13 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA27208626D5CE6400ECCA13 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DA27208726D5CE6400ECCA13 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		DA27209126D5CE6400ECCA13 /* Masonry-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		DA27209226D5CE6400ECCA13 /* Masonry-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		DA27209326D5CE6400ECCA13 /* Masonry.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		DA27209526D5CE6400ECCA13 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DA27209626D5CE6400ECCA13 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DA27209726D5CE6400ECCA13 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		DA27209926D5CE6400ECCA13 /* Pods-RFID_ios-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-RFID_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA27209A26D5CE6400ECCA13 /* Pods-RFID_ios-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-RFID_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA27209B26D5CE6400ECCA13 /* Pods-RFID_ios-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFID_ios-dummy.m"; sourceTree = "<group>"; };
+		DA27209C26D5CE6400ECCA13 /* Pods-RFID_ios-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-RFID_ios-frameworks.sh"; sourceTree = "<group>"; };
+		DA27209D26D5CE6400ECCA13 /* Pods-RFID_ios-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-RFID_ios-resources.sh"; sourceTree = "<group>"; };
+		DA27209E26D5CE6400ECCA13 /* Pods-RFID_ios.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-RFID_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		DA27209F26D5CE6400ECCA13 /* Pods-RFID_ios.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-RFID_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DA65149322B254A300B16E71 /* 苍蝇拍 V2.02 .bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "苍蝇拍 V2.02 .bin"; sourceTree = "<group>"; };
+		DA65149522B254BB00B16E71 /* Reader_v2_0_4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Reader_v2_0_4.bin; sourceTree = "<group>"; };
+		DA8730A320A3DF4C00785F39 /* ScanViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewCell.h; sourceTree = "<group>"; };
+		DA8730A420A3DF4C00785F39 /* ScanViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewCell.m; sourceTree = "<group>"; };
+		DA88F93E2091A67800AE525C /* RFID_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFID_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA88F9412091A67800AE525C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA88F9422091A67800AE525C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA88F9442091A67800AE525C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA88F9452091A67800AE525C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA88F9482091A67800AE525C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA88F94A2091A67800AE525C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA88F94D2091A67800AE525C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA88F94F2091A67800AE525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA88F9502091A67800AE525C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA88F9562091A67800AE525C /* RFID_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFID_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA88F95A2091A67800AE525C /* RFID_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFID_iosTests.m; sourceTree = "<group>"; };
+		DA88F95C2091A67800AE525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA88F9612091A67900AE525C /* RFID_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFID_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA88F9652091A67900AE525C /* RFID_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFID_iosUITests.m; sourceTree = "<group>"; };
+		DA88F9672091A67900AE525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA88F9732091A92700AE525C /* RFIDBlutoothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFIDBlutoothManager.h; sourceTree = "<group>"; };
+		DA88F9742091A92700AE525C /* RFIDBlutoothManager.m */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = RFIDBlutoothManager.m; sourceTree = "<group>"; };
+		DA88F9762091B66A00AE525C /* BLEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		DA88F9772091B66A00AE525C /* BLEModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
+		DA88F9792091B6AC00AE525C /* BluetoothUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothUtil.h; sourceTree = "<group>"; };
+		DA88F97A2091B6AC00AE525C /* BluetoothUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothUtil.m; sourceTree = "<group>"; };
+		DA88F97C2091B9CD00AE525C /* BSprogreUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSprogreUtil.h; sourceTree = "<group>"; };
+		DA88F97D2091B9CD00AE525C /* BSprogreUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSprogreUtil.m; sourceTree = "<group>"; };
+		DA88F97F2091C0A900AE525C /* CustomNaviAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNaviAlertView.h; sourceTree = "<group>"; };
+		DA88F9802091C0A900AE525C /* CustomNaviAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNaviAlertView.m; sourceTree = "<group>"; };
+		DA88F9822091C2B300AE525C /* ShadeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadeCell.h; sourceTree = "<group>"; };
+		DA88F9832091C2B300AE525C /* ShadeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadeCell.m; sourceTree = "<group>"; };
+		DA88F9852091C45100AE525C /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		DA88F9862091C45100AE525C /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		DA88F98B2091D6D300AE525C /* SettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		DA88F98C2091D6D300AE525C /* SettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		DA88F98E2091D71100AE525C /* EncryptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionView.h; sourceTree = "<group>"; };
+		DA88F98F2091D71100AE525C /* EncryptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionView.m; sourceTree = "<group>"; };
+		DA88F9912091D72800AE525C /* USERView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USERView.h; sourceTree = "<group>"; };
+		DA88F9922091D72800AE525C /* USERView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USERView.m; sourceTree = "<group>"; };
+		DA88F9942091D73C00AE525C /* ReadMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMessageView.h; sourceTree = "<group>"; };
+		DA88F9952091D73C00AE525C /* ReadMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadMessageView.m; sourceTree = "<group>"; };
+		DA88F9972091D74A00AE525C /* WriteMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteMessageView.h; sourceTree = "<group>"; };
+		DA88F9982091D74A00AE525C /* WriteMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteMessageView.m; sourceTree = "<group>"; };
+		DA88F99A2091D76600AE525C /* LockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		DA88F99B2091D76600AE525C /* LockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		DA88F99D2091D78800AE525C /* KillView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KillView.h; sourceTree = "<group>"; };
+		DA88F99E2091D78800AE525C /* KillView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KillView.m; sourceTree = "<group>"; };
+		DA88F9A02091D7AE00AE525C /* UpgradeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpgradeView.h; sourceTree = "<group>"; };
+		DA88F9A12091D7AE00AE525C /* UpgradeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpgradeView.m; sourceTree = "<group>"; };
+		DAA62F93209328500054715C /* ChooseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseView.h; sourceTree = "<group>"; };
+		DAA62F94209328500054715C /* ChooseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseView.m; sourceTree = "<group>"; };
+		DADE3F4A26DA2E9700A17EC7 /* IQBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		DADE3F4B26DA2E9700A17EC7 /* IQKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		DADE3F4C26DA2E9700A17EC7 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		DADE3F4D26DA2E9700A17EC7 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		DADE3F4E26DA2E9700A17EC7 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		DADE3F4F26DA2E9700A17EC7 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		DADE3F5026DA2E9700A17EC7 /* IQTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		DADE3F5126DA2E9700A17EC7 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		DADE3F5226DA2E9700A17EC7 /* IQToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		DADE3F5326DA2E9700A17EC7 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		DADE3F5426DA2E9700A17EC7 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		DADE3F5526DA2E9700A17EC7 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DADE3F5626DA2E9700A17EC7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		DADE3F5726DA2E9700A17EC7 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		DADE3F5826DA2E9700A17EC7 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		DADE3F5926DA2E9700A17EC7 /* KeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		DADE3F5B26DA2E9700A17EC7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DADE3F5C26DA2E9700A17EC7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DADE3F5D26DA2E9700A17EC7 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DADE3F5E26DA2E9700A17EC7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DADE3F5F26DA2E9700A17EC7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DADE3F6026DA2E9700A17EC7 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DADE3F6126DA2E9700A17EC7 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DADE3F6226DA2E9700A17EC7 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DADE3F6326DA2E9700A17EC7 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DADE3F6426DA2E9700A17EC7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6526DA2E9700A17EC7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6626DA2E9700A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6726DA2E9700A17EC7 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6826DA2E9700A17EC7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6926DA2E9700A17EC7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F6B26DA2E9700A17EC7 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DADE3F6E26DA2E9700A17EC7 /* IQBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		DADE3F6F26DA2E9700A17EC7 /* IQKeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		DADE3F7026DA2E9700A17EC7 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		DADE3F7126DA2E9700A17EC7 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		DADE3F7226DA2E9700A17EC7 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		DADE3F7326DA2E9700A17EC7 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		DADE3F7426DA2E9700A17EC7 /* IQTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		DADE3F7526DA2E9700A17EC7 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		DADE3F7626DA2E9700A17EC7 /* IQToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		DADE3F7726DA2E9700A17EC7 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		DADE3F7826DA2E9700A17EC7 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		DADE3F7926DA2E9700A17EC7 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DADE3F7A26DA2E9700A17EC7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		DADE3F7B26DA2E9700A17EC7 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		DADE3F7C26DA2E9700A17EC7 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		DADE3F7D26DA2E9700A17EC7 /* KeyboardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		DADE3F7F26DA2E9700A17EC7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DADE3F8026DA2E9700A17EC7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DADE3F8126DA2E9700A17EC7 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DADE3F8226DA2E9700A17EC7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DADE3F8326DA2E9700A17EC7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DADE3F8426DA2E9700A17EC7 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DADE3F8526DA2E9700A17EC7 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DADE3F8626DA2E9700A17EC7 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DADE3F8726DA2E9700A17EC7 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DADE3F8826DA2E9700A17EC7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8926DA2E9700A17EC7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8A26DA2E9700A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8B26DA2E9700A17EC7 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8C26DA2E9700A17EC7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8D26DA2E9700A17EC7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3F8F26DA2E9700A17EC7 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DADE3FB826DA2E9800A17EC7 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		DADE3FBA26DA2E9800A17EC7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DADE3FBC26DA2E9800A17EC7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DADE3FBD26DA2E9800A17EC7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DADE3FBE26DA2E9800A17EC7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DADE3FBF26DA2E9800A17EC7 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DADE3FC026DA2E9800A17EC7 /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		DADE3FC126DA2E9800A17EC7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DADE3FC226DA2E9800A17EC7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		DADE3FC326DA2E9800A17EC7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DADE3FC426DA2E9800A17EC7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		DADE3FC526DA2E9800A17EC7 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DADE3FC626DA2E9800A17EC7 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DADE3FC726DA2E9800A17EC7 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DADE3FC826DA2E9800A17EC7 /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		DADE3FC926DA2E9800A17EC7 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DADE3FCA26DA2E9800A17EC7 /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		DADE3FCB26DA2E9800A17EC7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3FCC26DA2E9800A17EC7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DADE3FCD26DA2E9800A17EC7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3FCE26DA2E9800A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DADE3FCF26DA2E9800A17EC7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DADE3FD026DA2E9800A17EC7 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3FD126DA2E9800A17EC7 /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		DADE3FD226DA2E9800A17EC7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DADE3FD326DA2E9800A17EC7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DADE3FD426DA2E9800A17EC7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		DADE3FD526DA2E9800A17EC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DADE3FD726DA2E9800A17EC7 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DADE3FD826DA2E9800A17EC7 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DADE3FD926DA2E9800A17EC7 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DADE3FDA26DA2E9800A17EC7 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		DADE3FE426DA2E9800A17EC7 /* Masonry-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		DADE3FE526DA2E9800A17EC7 /* Masonry-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		DADE3FE626DA2E9800A17EC7 /* Masonry.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		DADE3FE826DA2E9800A17EC7 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DADE3FE926DA2E9800A17EC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DADE3FEA26DA2E9800A17EC7 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		DADE3FEC26DA2E9800A17EC7 /* Pods-RFID_ios-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-RFID_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DADE3FED26DA2E9800A17EC7 /* Pods-RFID_ios-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-RFID_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		DADE3FEE26DA2E9800A17EC7 /* Pods-RFID_ios-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFID_ios-dummy.m"; sourceTree = "<group>"; };
+		DADE3FEF26DA2E9800A17EC7 /* Pods-RFID_ios-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-RFID_ios-frameworks.sh"; sourceTree = "<group>"; };
+		DADE3FF026DA2E9800A17EC7 /* Pods-RFID_ios-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-RFID_ios-resources.sh"; sourceTree = "<group>"; };
+		DADE3FF126DA2E9800A17EC7 /* Pods-RFID_ios.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-RFID_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		DADE3FF226DA2E9800A17EC7 /* Pods-RFID_ios.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-RFID_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DAE55455224362220096F0F2 /* Reader.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Reader.bin; sourceTree = "<group>"; };
+		DFC6DEF36979C05FB8C3C4A7 /* Pods-RFID_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFID_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFID_ios/Pods-RFID_ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA88F93B2091A67800AE525C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5249A844B613D09B926BD5AB /* libPods-RFID_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F9532091A67800AE525C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F95E2091A67900AE525C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1E13C2655D8EDD0E2C2B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA271FF326D5CE6400ECCA13 /* Pods */,
+				DADE3F4626DA2E9700A17EC7 /* Pods */,
+				BB1FF89AA297D48B4665BE84 /* libPods-RFID_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68CBFCBA2A9C772300DDECC8 /* RFID */ = {
+			isa = PBXGroup;
+			children = (
+				04BCB00823406B2B00322E85 /* AppHelper.h */,
+				04BCB00923406B2B00322E85 /* AppHelper.m */,
+				DA88F9762091B66A00AE525C /* BLEModel.h */,
+				DA88F9772091B66A00AE525C /* BLEModel.m */,
+				DA88F9792091B6AC00AE525C /* BluetoothUtil.h */,
+				DA88F97A2091B6AC00AE525C /* BluetoothUtil.m */,
+				DA88F9732091A92700AE525C /* RFIDBlutoothManager.h */,
+				DA88F9742091A92700AE525C /* RFIDBlutoothManager.m */,
+				68CBFCBB2A9C846A00DDECC8 /* UHFTagInfo.h */,
+				68CBFCBC2A9C846A00DDECC8 /* UHFTagInfo.m */,
+			);
+			name = RFID;
+			sourceTree = "<group>";
+		};
+		CFAD750EBE5B9BBA5928F2B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6226E0A339F887DE8D8DEF4 /* Pods-RFID_ios.debug.xcconfig */,
+				DFC6DEF36979C05FB8C3C4A7 /* Pods-RFID_ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA271FF326D5CE6400ECCA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA271FF426D5CE6400ECCA13 /* Headers */,
+				DA27206426D5CE6400ECCA13 /* Local Podspecs */,
+				DA27206526D5CE6400ECCA13 /* Manifest.lock */,
+				DA27206626D5CE6400ECCA13 /* Masonry */,
+				DA27208326D5CE6400ECCA13 /* MBProgressHUD */,
+				DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */,
+				DA27208B26D5CE6400ECCA13 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA271FF426D5CE6400ECCA13 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DA271FF526D5CE6400ECCA13 /* Private */,
+				DA27201926D5CE6400ECCA13 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DA271FF526D5CE6400ECCA13 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				DA271FF626D5CE6400ECCA13 /* IQKeyboardManager */,
+				DA27200726D5CE6400ECCA13 /* Masonry */,
+				DA27201726D5CE6400ECCA13 /* MBProgressHUD */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		DA271FF626D5CE6400ECCA13 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DA271FF726D5CE6400ECCA13 /* IQBarButtonItem.h */,
+				DA271FF826D5CE6400ECCA13 /* IQKeyboardManager.h */,
+				DA271FF926D5CE6400ECCA13 /* IQKeyboardManagerConstants.h */,
+				DA271FFA26D5CE6400ECCA13 /* IQKeyboardManagerConstantsInternal.h */,
+				DA271FFB26D5CE6400ECCA13 /* IQKeyboardReturnKeyHandler.h */,
+				DA271FFC26D5CE6400ECCA13 /* IQNSArray+Sort.h */,
+				DA271FFD26D5CE6400ECCA13 /* IQTextView.h */,
+				DA271FFE26D5CE6400ECCA13 /* IQTitleBarButtonItem.h */,
+				DA271FFF26D5CE6400ECCA13 /* IQToolbar.h */,
+				DA27200026D5CE6400ECCA13 /* IQUIScrollView+Additions.h */,
+				DA27200126D5CE6400ECCA13 /* IQUITextFieldView+Additions.h */,
+				DA27200226D5CE6400ECCA13 /* IQUIView+Hierarchy.h */,
+				DA27200326D5CE6400ECCA13 /* IQUIView+IQKeyboardToolbar.h */,
+				DA27200426D5CE6400ECCA13 /* IQUIViewController+Additions.h */,
+				DA27200526D5CE6400ECCA13 /* IQUIWindow+Hierarchy.h */,
+				DA27200626D5CE6400ECCA13 /* KeyboardManager.h */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		DA27200726D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DA27200826D5CE6400ECCA13 /* MASCompositeConstraint.h */,
+				DA27200926D5CE6400ECCA13 /* MASConstraint+Private.h */,
+				DA27200A26D5CE6400ECCA13 /* MASConstraint.h */,
+				DA27200B26D5CE6400ECCA13 /* MASConstraintMaker.h */,
+				DA27200C26D5CE6400ECCA13 /* MASLayoutConstraint.h */,
+				DA27200D26D5CE6400ECCA13 /* Masonry.h */,
+				DA27200E26D5CE6400ECCA13 /* MASUtilities.h */,
+				DA27200F26D5CE6400ECCA13 /* MASViewAttribute.h */,
+				DA27201026D5CE6400ECCA13 /* MASViewConstraint.h */,
+				DA27201126D5CE6400ECCA13 /* NSArray+MASAdditions.h */,
+				DA27201226D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */,
+				DA27201326D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DA27201426D5CE6400ECCA13 /* View+MASAdditions.h */,
+				DA27201526D5CE6400ECCA13 /* View+MASShorthandAdditions.h */,
+				DA27201626D5CE6400ECCA13 /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA27201726D5CE6400ECCA13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA27201826D5CE6400ECCA13 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DA27201926D5CE6400ECCA13 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				DA27201A26D5CE6400ECCA13 /* IQKeyboardManager */,
+				DA27202B26D5CE6400ECCA13 /* Masonry */,
+				DA27203B26D5CE6400ECCA13 /* MBProgressHUD */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		DA27201A26D5CE6400ECCA13 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DA27201B26D5CE6400ECCA13 /* IQBarButtonItem.h */,
+				DA27201C26D5CE6400ECCA13 /* IQKeyboardManager.h */,
+				DA27201D26D5CE6400ECCA13 /* IQKeyboardManagerConstants.h */,
+				DA27201E26D5CE6400ECCA13 /* IQKeyboardManagerConstantsInternal.h */,
+				DA27201F26D5CE6400ECCA13 /* IQKeyboardReturnKeyHandler.h */,
+				DA27202026D5CE6400ECCA13 /* IQNSArray+Sort.h */,
+				DA27202126D5CE6400ECCA13 /* IQTextView.h */,
+				DA27202226D5CE6400ECCA13 /* IQTitleBarButtonItem.h */,
+				DA27202326D5CE6400ECCA13 /* IQToolbar.h */,
+				DA27202426D5CE6400ECCA13 /* IQUIScrollView+Additions.h */,
+				DA27202526D5CE6400ECCA13 /* IQUITextFieldView+Additions.h */,
+				DA27202626D5CE6400ECCA13 /* IQUIView+Hierarchy.h */,
+				DA27202726D5CE6400ECCA13 /* IQUIView+IQKeyboardToolbar.h */,
+				DA27202826D5CE6400ECCA13 /* IQUIViewController+Additions.h */,
+				DA27202926D5CE6400ECCA13 /* IQUIWindow+Hierarchy.h */,
+				DA27202A26D5CE6400ECCA13 /* KeyboardManager.h */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		DA27202B26D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DA27202C26D5CE6400ECCA13 /* MASCompositeConstraint.h */,
+				DA27202D26D5CE6400ECCA13 /* MASConstraint+Private.h */,
+				DA27202E26D5CE6400ECCA13 /* MASConstraint.h */,
+				DA27202F26D5CE6400ECCA13 /* MASConstraintMaker.h */,
+				DA27203026D5CE6400ECCA13 /* MASLayoutConstraint.h */,
+				DA27203126D5CE6400ECCA13 /* Masonry.h */,
+				DA27203226D5CE6400ECCA13 /* MASUtilities.h */,
+				DA27203326D5CE6400ECCA13 /* MASViewAttribute.h */,
+				DA27203426D5CE6400ECCA13 /* MASViewConstraint.h */,
+				DA27203526D5CE6400ECCA13 /* NSArray+MASAdditions.h */,
+				DA27203626D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */,
+				DA27203726D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DA27203826D5CE6400ECCA13 /* View+MASAdditions.h */,
+				DA27203926D5CE6400ECCA13 /* View+MASShorthandAdditions.h */,
+				DA27203A26D5CE6400ECCA13 /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA27203B26D5CE6400ECCA13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA27203C26D5CE6400ECCA13 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DA27206426D5CE6400ECCA13 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		DA27206626D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DA27206726D5CE6400ECCA13 /* LICENSE */,
+				DA27206826D5CE6400ECCA13 /* Masonry */,
+				DA27208226D5CE6400ECCA13 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA27206826D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DA27206926D5CE6400ECCA13 /* MASCompositeConstraint.h */,
+				DA27206A26D5CE6400ECCA13 /* MASCompositeConstraint.m */,
+				DA27206B26D5CE6400ECCA13 /* MASConstraint+Private.h */,
+				DA27206C26D5CE6400ECCA13 /* MASConstraint.h */,
+				DA27206D26D5CE6400ECCA13 /* MASConstraint.m */,
+				DA27206E26D5CE6400ECCA13 /* MASConstraintMaker.h */,
+				DA27206F26D5CE6400ECCA13 /* MASConstraintMaker.m */,
+				DA27207026D5CE6400ECCA13 /* MASLayoutConstraint.h */,
+				DA27207126D5CE6400ECCA13 /* MASLayoutConstraint.m */,
+				DA27207226D5CE6400ECCA13 /* Masonry.h */,
+				DA27207326D5CE6400ECCA13 /* MASUtilities.h */,
+				DA27207426D5CE6400ECCA13 /* MASViewAttribute.h */,
+				DA27207526D5CE6400ECCA13 /* MASViewAttribute.m */,
+				DA27207626D5CE6400ECCA13 /* MASViewConstraint.h */,
+				DA27207726D5CE6400ECCA13 /* MASViewConstraint.m */,
+				DA27207826D5CE6400ECCA13 /* NSArray+MASAdditions.h */,
+				DA27207926D5CE6400ECCA13 /* NSArray+MASAdditions.m */,
+				DA27207A26D5CE6400ECCA13 /* NSArray+MASShorthandAdditions.h */,
+				DA27207B26D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DA27207C26D5CE6400ECCA13 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DA27207D26D5CE6400ECCA13 /* View+MASAdditions.h */,
+				DA27207E26D5CE6400ECCA13 /* View+MASAdditions.m */,
+				DA27207F26D5CE6400ECCA13 /* View+MASShorthandAdditions.h */,
+				DA27208026D5CE6400ECCA13 /* ViewController+MASAdditions.h */,
+				DA27208126D5CE6400ECCA13 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA27208326D5CE6400ECCA13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA27208426D5CE6400ECCA13 /* LICENSE */,
+				DA27208526D5CE6400ECCA13 /* MBProgressHUD.h */,
+				DA27208626D5CE6400ECCA13 /* MBProgressHUD.m */,
+				DA27208726D5CE6400ECCA13 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DA27208926D5CE6400ECCA13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CBFCB92A9C463100DDECC8 /* IQKeyboardManager */,
+				DA2720A726D5CE6400ECCA13 /* Masonry */,
+				DA2720A926D5CE6400ECCA13 /* MBProgressHUD */,
+				DA2720AB26D5CE6400ECCA13 /* Pods-RFID_ios */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA27208B26D5CE6400ECCA13 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA27209026D5CE6400ECCA13 /* Masonry */,
+				DA27209426D5CE6400ECCA13 /* MBProgressHUD */,
+				DA27209826D5CE6400ECCA13 /* Pods-RFID_ios */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		DA27209026D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DA27209126D5CE6400ECCA13 /* Masonry-dummy.m */,
+				DA27209226D5CE6400ECCA13 /* Masonry-prefix.pch */,
+				DA27209326D5CE6400ECCA13 /* Masonry.xcconfig */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA27209426D5CE6400ECCA13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA27209526D5CE6400ECCA13 /* MBProgressHUD-dummy.m */,
+				DA27209626D5CE6400ECCA13 /* MBProgressHUD-prefix.pch */,
+				DA27209726D5CE6400ECCA13 /* MBProgressHUD.xcconfig */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DA27209826D5CE6400ECCA13 /* Pods-RFID_ios */ = {
+			isa = PBXGroup;
+			children = (
+				DA27209926D5CE6400ECCA13 /* Pods-RFID_ios-acknowledgements.markdown */,
+				DA27209A26D5CE6400ECCA13 /* Pods-RFID_ios-acknowledgements.plist */,
+				DA27209B26D5CE6400ECCA13 /* Pods-RFID_ios-dummy.m */,
+				DA27209C26D5CE6400ECCA13 /* Pods-RFID_ios-frameworks.sh */,
+				DA27209D26D5CE6400ECCA13 /* Pods-RFID_ios-resources.sh */,
+				DA27209E26D5CE6400ECCA13 /* Pods-RFID_ios.debug.xcconfig */,
+				DA27209F26D5CE6400ECCA13 /* Pods-RFID_ios.release.xcconfig */,
+			);
+			path = "Pods-RFID_ios";
+			sourceTree = "<group>";
+		};
+		DA3A8AEF2A861989006D7DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAA62F93209328500054715C /* ChooseView.h */,
+				DAA62F94209328500054715C /* ChooseView.m */,
+				DA88F97F2091C0A900AE525C /* CustomNaviAlertView.h */,
+				DA88F9802091C0A900AE525C /* CustomNaviAlertView.m */,
+				DA88F98E2091D71100AE525C /* EncryptionView.h */,
+				DA88F98F2091D71100AE525C /* EncryptionView.m */,
+				689A0F65217D7E0400DF0E4C /* InternationalControl.h */,
+				689A0F66217D7E0400DF0E4C /* InternationalControl.m */,
+				DA88F99D2091D78800AE525C /* KillView.h */,
+				DA88F99E2091D78800AE525C /* KillView.m */,
+				68AA78122192FF56000D9136 /* LockChooseeView.h */,
+				68AA78132192FF56000D9136 /* LockChooseeView.m */,
+				DA88F99A2091D76600AE525C /* LockView.h */,
+				DA88F99B2091D76600AE525C /* LockView.m */,
+				041625A524BAC0CD00276999 /* ModifyBluetoothNameView.h */,
+				041625A624BAC0CD00276999 /* ModifyBluetoothNameView.m */,
+				04C3854A253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.h */,
+				04C3854B253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.m */,
+				68ABD44621796B9100CC2D02 /* QRcodeView.h */,
+				68ABD44721796B9100CC2D02 /* QRcodeView.m */,
+				68A7A66D218836D7006310C2 /* QRcodeViewCell.h */,
+				68A7A66E218836D7006310C2 /* QRcodeViewCell.m */,
+				DA88F9942091D73C00AE525C /* ReadMessageView.h */,
+				DA88F9952091D73C00AE525C /* ReadMessageView.m */,
+				DA088C2D22B77A080029981E /* ScanView.h */,
+				DA088C2E22B77A080029981E /* ScanView.m */,
+				DA8730A320A3DF4C00785F39 /* ScanViewCell.h */,
+				DA8730A420A3DF4C00785F39 /* ScanViewCell.m */,
+				DA88F98B2091D6D300AE525C /* SettingView.h */,
+				DA88F98C2091D6D300AE525C /* SettingView.m */,
+				DA88F9822091C2B300AE525C /* ShadeCell.h */,
+				DA88F9832091C2B300AE525C /* ShadeCell.m */,
+				DA88F9852091C45100AE525C /* TopView.h */,
+				DA88F9862091C45100AE525C /* TopView.m */,
+				DA88F9A02091D7AE00AE525C /* UpgradeView.h */,
+				DA88F9A12091D7AE00AE525C /* UpgradeView.m */,
+				DA88F9912091D72800AE525C /* USERView.h */,
+				DA88F9922091D72800AE525C /* USERView.m */,
+				DA88F9972091D74A00AE525C /* WriteMessageView.h */,
+				DA88F9982091D74A00AE525C /* WriteMessageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DA3A8B032A861A9D006D7DB9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA88F97C2091B9CD00AE525C /* BSprogreUtil.h */,
+				DA88F97D2091B9CD00AE525C /* BSprogreUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DA3A8B062A861CB5006D7DB9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DA65149322B254A300B16E71 /* 苍蝇拍 V2.02 .bin */,
+				DA65149522B254BB00B16E71 /* Reader_v2_0_4.bin */,
+				DAE55455224362220096F0F2 /* Reader.bin */,
+				689A0F61217D777D00DF0E4C /* hello.strings */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		DA88F9352091A67800AE525C = {
+			isa = PBXGroup;
+			children = (
+				DA88F9402091A67800AE525C /* RFID_ios */,
+				DA88F9592091A67800AE525C /* RFID_iosTests */,
+				DA88F9642091A67900AE525C /* RFID_iosUITests */,
+				DA88F93F2091A67800AE525C /* Products */,
+				CFAD750EBE5B9BBA5928F2B4 /* Pods */,
+				2C1E13C2655D8EDD0E2C2B80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		DA88F93F2091A67800AE525C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA88F93E2091A67800AE525C /* RFID_ios.app */,
+				DA88F9562091A67800AE525C /* RFID_iosTests.xctest */,
+				DA88F9612091A67900AE525C /* RFID_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA88F9402091A67800AE525C /* RFID_ios */ = {
+			isa = PBXGroup;
+			children = (
+				DA3A8B062A861CB5006D7DB9 /* Others */,
+				DA3A8B032A861A9D006D7DB9 /* Utils */,
+				DA3A8AEF2A861989006D7DB9 /* Views */,
+				68CBFCBA2A9C772300DDECC8 /* RFID */,
+				DA88F9412091A67800AE525C /* AppDelegate.h */,
+				DA88F9422091A67800AE525C /* AppDelegate.m */,
+				DA88F9472091A67800AE525C /* Main.storyboard */,
+				DA88F94C2091A67800AE525C /* LaunchScreen.storyboard */,
+				DA88F94A2091A67800AE525C /* Assets.xcassets */,
+				DA88F9442091A67800AE525C /* ViewController.h */,
+				DA88F9452091A67800AE525C /* ViewController.m */,
+				DA88F9502091A67800AE525C /* main.m */,
+				DA88F94F2091A67800AE525C /* Info.plist */,
+			);
+			path = RFID_ios;
+			sourceTree = "<group>";
+		};
+		DA88F9592091A67800AE525C /* RFID_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA88F95A2091A67800AE525C /* RFID_iosTests.m */,
+				DA88F95C2091A67800AE525C /* Info.plist */,
+			);
+			path = RFID_iosTests;
+			sourceTree = "<group>";
+		};
+		DA88F9642091A67900AE525C /* RFID_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA88F9652091A67900AE525C /* RFID_iosUITests.m */,
+				DA88F9672091A67900AE525C /* Info.plist */,
+			);
+			path = RFID_iosUITests;
+			sourceTree = "<group>";
+		};
+		DADE3F4626DA2E9700A17EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F4726DA2E9700A17EC7 /* Headers */,
+				DADE3FB726DA2E9800A17EC7 /* Local Podspecs */,
+				DADE3FB826DA2E9800A17EC7 /* Manifest.lock */,
+				DADE3FB926DA2E9800A17EC7 /* Masonry */,
+				DADE3FD626DA2E9800A17EC7 /* MBProgressHUD */,
+				DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */,
+				DADE3FDE26DA2E9800A17EC7 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DADE3F4726DA2E9700A17EC7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F4826DA2E9700A17EC7 /* Private */,
+				DADE3F6C26DA2E9700A17EC7 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DADE3F4826DA2E9700A17EC7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F4926DA2E9700A17EC7 /* IQKeyboardManager */,
+				DADE3F5A26DA2E9700A17EC7 /* Masonry */,
+				DADE3F6A26DA2E9700A17EC7 /* MBProgressHUD */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		DADE3F4926DA2E9700A17EC7 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F4A26DA2E9700A17EC7 /* IQBarButtonItem.h */,
+				DADE3F4B26DA2E9700A17EC7 /* IQKeyboardManager.h */,
+				DADE3F4C26DA2E9700A17EC7 /* IQKeyboardManagerConstants.h */,
+				DADE3F4D26DA2E9700A17EC7 /* IQKeyboardManagerConstantsInternal.h */,
+				DADE3F4E26DA2E9700A17EC7 /* IQKeyboardReturnKeyHandler.h */,
+				DADE3F4F26DA2E9700A17EC7 /* IQNSArray+Sort.h */,
+				DADE3F5026DA2E9700A17EC7 /* IQTextView.h */,
+				DADE3F5126DA2E9700A17EC7 /* IQTitleBarButtonItem.h */,
+				DADE3F5226DA2E9700A17EC7 /* IQToolbar.h */,
+				DADE3F5326DA2E9700A17EC7 /* IQUIScrollView+Additions.h */,
+				DADE3F5426DA2E9700A17EC7 /* IQUITextFieldView+Additions.h */,
+				DADE3F5526DA2E9700A17EC7 /* IQUIView+Hierarchy.h */,
+				DADE3F5626DA2E9700A17EC7 /* IQUIView+IQKeyboardToolbar.h */,
+				DADE3F5726DA2E9700A17EC7 /* IQUIViewController+Additions.h */,
+				DADE3F5826DA2E9700A17EC7 /* IQUIWindow+Hierarchy.h */,
+				DADE3F5926DA2E9700A17EC7 /* KeyboardManager.h */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		DADE3F5A26DA2E9700A17EC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F5B26DA2E9700A17EC7 /* MASCompositeConstraint.h */,
+				DADE3F5C26DA2E9700A17EC7 /* MASConstraint+Private.h */,
+				DADE3F5D26DA2E9700A17EC7 /* MASConstraint.h */,
+				DADE3F5E26DA2E9700A17EC7 /* MASConstraintMaker.h */,
+				DADE3F5F26DA2E9700A17EC7 /* MASLayoutConstraint.h */,
+				DADE3F6026DA2E9700A17EC7 /* Masonry.h */,
+				DADE3F6126DA2E9700A17EC7 /* MASUtilities.h */,
+				DADE3F6226DA2E9700A17EC7 /* MASViewAttribute.h */,
+				DADE3F6326DA2E9700A17EC7 /* MASViewConstraint.h */,
+				DADE3F6426DA2E9700A17EC7 /* NSArray+MASAdditions.h */,
+				DADE3F6526DA2E9700A17EC7 /* NSArray+MASShorthandAdditions.h */,
+				DADE3F6626DA2E9700A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DADE3F6726DA2E9700A17EC7 /* View+MASAdditions.h */,
+				DADE3F6826DA2E9700A17EC7 /* View+MASShorthandAdditions.h */,
+				DADE3F6926DA2E9700A17EC7 /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DADE3F6A26DA2E9700A17EC7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F6B26DA2E9700A17EC7 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DADE3F6C26DA2E9700A17EC7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F6D26DA2E9700A17EC7 /* IQKeyboardManager */,
+				DADE3F7E26DA2E9700A17EC7 /* Masonry */,
+				DADE3F8E26DA2E9700A17EC7 /* MBProgressHUD */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		DADE3F6D26DA2E9700A17EC7 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F6E26DA2E9700A17EC7 /* IQBarButtonItem.h */,
+				DADE3F6F26DA2E9700A17EC7 /* IQKeyboardManager.h */,
+				DADE3F7026DA2E9700A17EC7 /* IQKeyboardManagerConstants.h */,
+				DADE3F7126DA2E9700A17EC7 /* IQKeyboardManagerConstantsInternal.h */,
+				DADE3F7226DA2E9700A17EC7 /* IQKeyboardReturnKeyHandler.h */,
+				DADE3F7326DA2E9700A17EC7 /* IQNSArray+Sort.h */,
+				DADE3F7426DA2E9700A17EC7 /* IQTextView.h */,
+				DADE3F7526DA2E9700A17EC7 /* IQTitleBarButtonItem.h */,
+				DADE3F7626DA2E9700A17EC7 /* IQToolbar.h */,
+				DADE3F7726DA2E9700A17EC7 /* IQUIScrollView+Additions.h */,
+				DADE3F7826DA2E9700A17EC7 /* IQUITextFieldView+Additions.h */,
+				DADE3F7926DA2E9700A17EC7 /* IQUIView+Hierarchy.h */,
+				DADE3F7A26DA2E9700A17EC7 /* IQUIView+IQKeyboardToolbar.h */,
+				DADE3F7B26DA2E9700A17EC7 /* IQUIViewController+Additions.h */,
+				DADE3F7C26DA2E9700A17EC7 /* IQUIWindow+Hierarchy.h */,
+				DADE3F7D26DA2E9700A17EC7 /* KeyboardManager.h */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		DADE3F7E26DA2E9700A17EC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F7F26DA2E9700A17EC7 /* MASCompositeConstraint.h */,
+				DADE3F8026DA2E9700A17EC7 /* MASConstraint+Private.h */,
+				DADE3F8126DA2E9700A17EC7 /* MASConstraint.h */,
+				DADE3F8226DA2E9700A17EC7 /* MASConstraintMaker.h */,
+				DADE3F8326DA2E9700A17EC7 /* MASLayoutConstraint.h */,
+				DADE3F8426DA2E9700A17EC7 /* Masonry.h */,
+				DADE3F8526DA2E9700A17EC7 /* MASUtilities.h */,
+				DADE3F8626DA2E9700A17EC7 /* MASViewAttribute.h */,
+				DADE3F8726DA2E9700A17EC7 /* MASViewConstraint.h */,
+				DADE3F8826DA2E9700A17EC7 /* NSArray+MASAdditions.h */,
+				DADE3F8926DA2E9700A17EC7 /* NSArray+MASShorthandAdditions.h */,
+				DADE3F8A26DA2E9700A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DADE3F8B26DA2E9700A17EC7 /* View+MASAdditions.h */,
+				DADE3F8C26DA2E9700A17EC7 /* View+MASShorthandAdditions.h */,
+				DADE3F8D26DA2E9700A17EC7 /* ViewController+MASAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DADE3F8E26DA2E9700A17EC7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3F8F26DA2E9700A17EC7 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DADE3FB726DA2E9800A17EC7 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		DADE3FB926DA2E9800A17EC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FBA26DA2E9800A17EC7 /* LICENSE */,
+				DADE3FBB26DA2E9800A17EC7 /* Masonry */,
+				DADE3FD526DA2E9800A17EC7 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DADE3FBB26DA2E9800A17EC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FBC26DA2E9800A17EC7 /* MASCompositeConstraint.h */,
+				DADE3FBD26DA2E9800A17EC7 /* MASCompositeConstraint.m */,
+				DADE3FBE26DA2E9800A17EC7 /* MASConstraint+Private.h */,
+				DADE3FBF26DA2E9800A17EC7 /* MASConstraint.h */,
+				DADE3FC026DA2E9800A17EC7 /* MASConstraint.m */,
+				DADE3FC126DA2E9800A17EC7 /* MASConstraintMaker.h */,
+				DADE3FC226DA2E9800A17EC7 /* MASConstraintMaker.m */,
+				DADE3FC326DA2E9800A17EC7 /* MASLayoutConstraint.h */,
+				DADE3FC426DA2E9800A17EC7 /* MASLayoutConstraint.m */,
+				DADE3FC526DA2E9800A17EC7 /* Masonry.h */,
+				DADE3FC626DA2E9800A17EC7 /* MASUtilities.h */,
+				DADE3FC726DA2E9800A17EC7 /* MASViewAttribute.h */,
+				DADE3FC826DA2E9800A17EC7 /* MASViewAttribute.m */,
+				DADE3FC926DA2E9800A17EC7 /* MASViewConstraint.h */,
+				DADE3FCA26DA2E9800A17EC7 /* MASViewConstraint.m */,
+				DADE3FCB26DA2E9800A17EC7 /* NSArray+MASAdditions.h */,
+				DADE3FCC26DA2E9800A17EC7 /* NSArray+MASAdditions.m */,
+				DADE3FCD26DA2E9800A17EC7 /* NSArray+MASShorthandAdditions.h */,
+				DADE3FCE26DA2E9800A17EC7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DADE3FCF26DA2E9800A17EC7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DADE3FD026DA2E9800A17EC7 /* View+MASAdditions.h */,
+				DADE3FD126DA2E9800A17EC7 /* View+MASAdditions.m */,
+				DADE3FD226DA2E9800A17EC7 /* View+MASShorthandAdditions.h */,
+				DADE3FD326DA2E9800A17EC7 /* ViewController+MASAdditions.h */,
+				DADE3FD426DA2E9800A17EC7 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DADE3FD626DA2E9800A17EC7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FD726DA2E9800A17EC7 /* LICENSE */,
+				DADE3FD826DA2E9800A17EC7 /* MBProgressHUD.h */,
+				DADE3FD926DA2E9800A17EC7 /* MBProgressHUD.m */,
+				DADE3FDA26DA2E9800A17EC7 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DADE3FDC26DA2E9800A17EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CBFCB32A9C463100DDECC8 /* IQKeyboardManager */,
+				DADE3FFA26DA2E9800A17EC7 /* Masonry */,
+				DADE3FFC26DA2E9800A17EC7 /* MBProgressHUD */,
+				DADE3FFE26DA2E9800A17EC7 /* Pods-RFID_ios */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADE3FDE26DA2E9800A17EC7 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FE326DA2E9800A17EC7 /* Masonry */,
+				DADE3FE726DA2E9800A17EC7 /* MBProgressHUD */,
+				DADE3FEB26DA2E9800A17EC7 /* Pods-RFID_ios */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		DADE3FE326DA2E9800A17EC7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FE426DA2E9800A17EC7 /* Masonry-dummy.m */,
+				DADE3FE526DA2E9800A17EC7 /* Masonry-prefix.pch */,
+				DADE3FE626DA2E9800A17EC7 /* Masonry.xcconfig */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DADE3FE726DA2E9800A17EC7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FE826DA2E9800A17EC7 /* MBProgressHUD-dummy.m */,
+				DADE3FE926DA2E9800A17EC7 /* MBProgressHUD-prefix.pch */,
+				DADE3FEA26DA2E9800A17EC7 /* MBProgressHUD.xcconfig */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DADE3FEB26DA2E9800A17EC7 /* Pods-RFID_ios */ = {
+			isa = PBXGroup;
+			children = (
+				DADE3FEC26DA2E9800A17EC7 /* Pods-RFID_ios-acknowledgements.markdown */,
+				DADE3FED26DA2E9800A17EC7 /* Pods-RFID_ios-acknowledgements.plist */,
+				DADE3FEE26DA2E9800A17EC7 /* Pods-RFID_ios-dummy.m */,
+				DADE3FEF26DA2E9800A17EC7 /* Pods-RFID_ios-frameworks.sh */,
+				DADE3FF026DA2E9800A17EC7 /* Pods-RFID_ios-resources.sh */,
+				DADE3FF126DA2E9800A17EC7 /* Pods-RFID_ios.debug.xcconfig */,
+				DADE3FF226DA2E9800A17EC7 /* Pods-RFID_ios.release.xcconfig */,
+			);
+			path = "Pods-RFID_ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA88F93D2091A67800AE525C /* RFID_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA88F96A2091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_ios" */;
+			buildPhases = (
+				10ACAB79E65DAA7B2671378C /* [CP] Check Pods Manifest.lock */,
+				DA88F93A2091A67800AE525C /* Sources */,
+				DA88F93B2091A67800AE525C /* Frameworks */,
+				DA88F93C2091A67800AE525C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFID_ios;
+			productName = RFID_ios;
+			productReference = DA88F93E2091A67800AE525C /* RFID_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA88F9552091A67800AE525C /* RFID_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA88F96D2091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_iosTests" */;
+			buildPhases = (
+				DA88F9522091A67800AE525C /* Sources */,
+				DA88F9532091A67800AE525C /* Frameworks */,
+				DA88F9542091A67800AE525C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA88F9582091A67800AE525C /* PBXTargetDependency */,
+			);
+			name = RFID_iosTests;
+			productName = RFID_iosTests;
+			productReference = DA88F9562091A67800AE525C /* RFID_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA88F9602091A67900AE525C /* RFID_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA88F9702091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_iosUITests" */;
+			buildPhases = (
+				DA88F95D2091A67900AE525C /* Sources */,
+				DA88F95E2091A67900AE525C /* Frameworks */,
+				DA88F95F2091A67900AE525C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA88F9632091A67900AE525C /* PBXTargetDependency */,
+			);
+			name = RFID_iosUITests;
+			productName = RFID_iosUITests;
+			productReference = DA88F9612091A67900AE525C /* RFID_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA88F9362091A67800AE525C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = chainway;
+				TargetAttributes = {
+					DA88F93D2091A67800AE525C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DA88F9552091A67800AE525C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA88F93D2091A67800AE525C;
+					};
+					DA88F9602091A67900AE525C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA88F93D2091A67800AE525C;
+					};
+				};
+			};
+			buildConfigurationList = DA88F9392091A67800AE525C /* Build configuration list for PBXProject "RFID_ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DA88F9352091A67800AE525C;
+			productRefGroup = DA88F93F2091A67800AE525C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DADE3FDC26DA2E9800A17EC7 /* Products */;
+					ProjectRef = DADE3FDB26DA2E9800A17EC7 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = DA27208926D5CE6400ECCA13 /* Products */;
+					ProjectRef = DA27208826D5CE6400ECCA13 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DA88F93D2091A67800AE525C /* RFID_ios */,
+				DA88F9552091A67800AE525C /* RFID_iosTests */,
+				DA88F9602091A67900AE525C /* RFID_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		68CBFCB32A9C463100DDECC8 /* IQKeyboardManager */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = IQKeyboardManager;
+			path = libIQKeyboardManager.a;
+			remoteRef = 68CBFCB22A9C463100DDECC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		68CBFCB92A9C463100DDECC8 /* IQKeyboardManager */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = IQKeyboardManager;
+			path = libIQKeyboardManager.a;
+			remoteRef = 68CBFCB82A9C463100DDECC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA2720A726D5CE6400ECCA13 /* Masonry */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = Masonry;
+			path = libMasonry.a;
+			remoteRef = DA2720A626D5CE6400ECCA13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA2720A926D5CE6400ECCA13 /* MBProgressHUD */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = MBProgressHUD;
+			path = libMBProgressHUD.a;
+			remoteRef = DA2720A826D5CE6400ECCA13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DA2720AB26D5CE6400ECCA13 /* Pods-RFID_ios */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = "Pods-RFID_ios";
+			path = "libPods-RFID_ios.a";
+			remoteRef = DA2720AA26D5CE6400ECCA13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DADE3FFA26DA2E9800A17EC7 /* Masonry */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = Masonry;
+			path = libMasonry.a;
+			remoteRef = DADE3FF926DA2E9800A17EC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DADE3FFC26DA2E9800A17EC7 /* MBProgressHUD */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = MBProgressHUD;
+			path = libMBProgressHUD.a;
+			remoteRef = DADE3FFB26DA2E9800A17EC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DADE3FFE26DA2E9800A17EC7 /* Pods-RFID_ios */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = "Pods-RFID_ios";
+			path = "libPods-RFID_ios.a";
+			remoteRef = DADE3FFD26DA2E9800A17EC7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA88F93C2091A67800AE525C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE55456224362220096F0F2 /* Reader.bin in Resources */,
+				DA88F94E2091A67800AE525C /* LaunchScreen.storyboard in Resources */,
+				689A0F5F217D777D00DF0E4C /* hello.strings in Resources */,
+				DA65149622B254BB00B16E71 /* Reader_v2_0_4.bin in Resources */,
+				DA88F94B2091A67800AE525C /* Assets.xcassets in Resources */,
+				DA65149422B254A300B16E71 /* 苍蝇拍 V2.02 .bin in Resources */,
+				DA88F9492091A67800AE525C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F9542091A67800AE525C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F95F2091A67900AE525C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10ACAB79E65DAA7B2671378C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RFID_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA88F93A2091A67800AE525C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88F9962091D73C00AE525C /* ReadMessageView.m in Sources */,
+				DA88F99C2091D76600AE525C /* LockView.m in Sources */,
+				DA088C2F22B77A080029981E /* ScanView.m in Sources */,
+				DA88F9462091A67800AE525C /* ViewController.m in Sources */,
+				DA88F9902091D71100AE525C /* EncryptionView.m in Sources */,
+				68A7A66F218836D7006310C2 /* QRcodeViewCell.m in Sources */,
+				DA88F9752091A92700AE525C /* RFIDBlutoothManager.m in Sources */,
+				DA88F99F2091D78800AE525C /* KillView.m in Sources */,
+				DA88F9512091A67800AE525C /* main.m in Sources */,
+				DA88F9782091B66A00AE525C /* BLEModel.m in Sources */,
+				DA88F9812091C0A900AE525C /* CustomNaviAlertView.m in Sources */,
+				04BCB00A23406B2B00322E85 /* AppHelper.m in Sources */,
+				04C3854C253315AA00EB9E1C /* QRCodeScanTypeSelectBtn.m in Sources */,
+				DA88F98D2091D6D300AE525C /* SettingView.m in Sources */,
+				DA8730A520A3DF4C00785F39 /* ScanViewCell.m in Sources */,
+				DA88F9992091D74A00AE525C /* WriteMessageView.m in Sources */,
+				DAA62F95209328500054715C /* ChooseView.m in Sources */,
+				DA88F97B2091B6AC00AE525C /* BluetoothUtil.m in Sources */,
+				68CBFCBD2A9C846A00DDECC8 /* UHFTagInfo.m in Sources */,
+				DA88F9872091C45100AE525C /* TopView.m in Sources */,
+				68AA78142192FF56000D9136 /* LockChooseeView.m in Sources */,
+				68ABD44821796B9100CC2D02 /* QRcodeView.m in Sources */,
+				DA88F9842091C2B300AE525C /* ShadeCell.m in Sources */,
+				DA88F97E2091B9CD00AE525C /* BSprogreUtil.m in Sources */,
+				DA88F9432091A67800AE525C /* AppDelegate.m in Sources */,
+				689A0F67217D7E0400DF0E4C /* InternationalControl.m in Sources */,
+				DA88F9A22091D7AE00AE525C /* UpgradeView.m in Sources */,
+				041625A724BAC0CD00276999 /* ModifyBluetoothNameView.m in Sources */,
+				DA88F9932091D72800AE525C /* USERView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F9522091A67800AE525C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88F95B2091A67800AE525C /* RFID_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA88F95D2091A67900AE525C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88F9662091A67900AE525C /* RFID_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA88F9582091A67800AE525C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA88F93D2091A67800AE525C /* RFID_ios */;
+			targetProxy = DA88F9572091A67800AE525C /* PBXContainerItemProxy */;
+		};
+		DA88F9632091A67900AE525C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA88F93D2091A67800AE525C /* RFID_ios */;
+			targetProxy = DA88F9622091A67900AE525C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689A0F61217D777D00DF0E4C /* hello.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A0F60217D777D00DF0E4C /* en */,
+				689A0F62217D786900DF0E4C /* zh-Hans */,
+			);
+			name = hello.strings;
+			sourceTree = "<group>";
+		};
+		DA88F9472091A67800AE525C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA88F9482091A67800AE525C /* Base */,
+				689A0F63217D786900DF0E4C /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA88F94C2091A67800AE525C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA88F94D2091A67800AE525C /* Base */,
+				689A0F64217D786900DF0E4C /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA88F9682091A67900AE525C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA88F9692091A67900AE525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA88F96B2091A67900AE525C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6226E0A339F887DE8D8DEF4 /* Pods-RFID_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chainway.RFID-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA88F96C2091A67900AE525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC6DEF36979C05FB8C3C4A7 /* Pods-RFID_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chainway.RFID-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA88F96E2091A67900AE525C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cw.RFID-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFID_ios.app/RFID_ios";
+			};
+			name = Debug;
+		};
+		DA88F96F2091A67900AE525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cw.RFID-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFID_ios.app/RFID_ios";
+			};
+			name = Release;
+		};
+		DA88F9712091A67900AE525C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cw.RFID-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFID_ios;
+			};
+			name = Debug;
+		};
+		DA88F9722091A67900AE525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BERXBR5X62;
+				INFOPLIST_FILE = RFID_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cw.RFID-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFID_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA88F9392091A67800AE525C /* Build configuration list for PBXProject "RFID_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F9682091A67900AE525C /* Debug */,
+				DA88F9692091A67900AE525C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA88F96A2091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F96B2091A67900AE525C /* Debug */,
+				DA88F96C2091A67900AE525C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA88F96D2091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F96E2091A67900AE525C /* Debug */,
+				DA88F96F2091A67900AE525C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA88F9702091A67900AE525C /* Build configuration list for PBXNativeTarget "RFID_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88F9712091A67900AE525C /* Debug */,
+				DA88F9722091A67900AE525C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA88F9362091A67800AE525C /* Project object */;
+}

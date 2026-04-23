@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UHF-usb</string>
+    <string name="title_2Dscan">扫描</string>
+    <string name="psam_title_clear">清空</string>
+    <string name="title_format">编码格式</string>
+    <string name="tvInventoryName">识别标签</string>
+    <string name="tvCountOfTags">标签数&#160;&#160;</string>
+    <string name="rbInventorySingle">单步</string>
+    <string name="rbInventoryLoop">循环</string>
+    <string name="rbInventoryAnti">防碰撞</string>
+    <string name="tvQ">Q值：</string>
+    <string name="btInventory">开始识别</string>
+    <string name="title_stop_Inventory">停止识别</string>
+    <string name="tvTagUii">标签EPC</string>
+    <string name="tvTagLen">长度</string>
+    <string name="tvTagCount">数量</string>
+
+    <string name="btClear">清空数据</string>
+
+    <string name="stop">停止</string>
+    <string name="inventory">盘点</string>
+    <string name="read_labels">读标签</string>
+    <string name="write_labels">写标签</string>
+    <string name="lock">锁</string>
+    <string name="kill">销毁</string>
+    <string name="config">设置</string>
+
+    <string name="uhf_title_filter">过滤</string>
+    <string name="button_enable_filter">启用过滤</string>
+    <string name="tvBank">存&#160;&#160;储&#160;&#160;区：</string>
+    <string name="tvPtr">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址：</string>
+    <string name="tvLen">长&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;度：</string>
+
+    <string name="tvTagUii_Data">标签号：</string>
+    <string name="tvBank_Data">存储区：</string>
+    <string name="tvPtr_Data">地址：</string>
+    <string name="tvLen_Data">长度：</string>
+    <string name="tvCount_Data">次数：</string>
+    <string name="tvData_Data">数据：</string>
+    <string name="tvStatus_Data">状态：</string>
+    <string name="tvAccessPwd">访问密码：</string>
+    <string name="tvOption_Read">读取模式：</string>
+    <string name="ckLoop_Read">循环</string>
+
+    <string name="tvData_Read">数据内容：</string>
+    <string name="btRead">读取数据</string>
+
+    <string name="tvMode">工作模式：</string>
+    <string name="btSetFre">设置频率</string>
+    <string name="btGetFre">读取频率</string>
+
+    <string name="uhf_title_power">输出功率：</string>
+    <string name="uhf_btn_setpower">设置功率</string>
+    <string name="uhf_btn_getpower">读取功率</string>
+
+    <string name="title_buzzer">蜂鸣器设置</string>
+    <string name="title_buzzer_open">打开蜂鸣器</string>
+    <string name="title_buzzer_close">关闭蜂鸣器</string>
+
+    <string name="GB_tag_lock">国标/国军标 Lock</string>
+    <string name="storageArea">存储区域：</string>
+    <string name="user_area_number">用户区编号：</string>
+    <string name="configure">配置：</string>
+    <string name="action">动作：</string>
+    <string name="tvLockCode">锁定码：</string>
+    <string name="uhf_title_temp">临时掩码</string>
+    <string name="uhf_title_perm">永久掩码</string>
+    <string name="uhf_title_open">开放</string>
+    <string name="uhf_title_lock">锁</string>
+
+    <string name="uhf_msg_set_frequency_fail">设置频率失败</string>
+    <string name="uhf_msg_set_frequency_succ">设置频率成功</string>
+    <string name="uhf_msg_read_frequency_fail">读取频率失败</string>
+    <string name="uhf_msg_read_frequency_succ">读取频率成功</string>
+    <string name="get_power_fail">获取功率失败</string>
+    <string name="get_power_succ">获取功率成功</string>
+    <string name="set_power_fail">设置功率失败</string>
+    <string name="set_power_succ">设置功率成功</string>
+
+    <string name="msg_open_success">打开成功</string>
+    <string name="msg_open_fail">打开失败</string>
+    <string name="msg_close_ed">已关闭</string>
+    <string name="msg_permission_success">获取权限成功：</string>
+    <string name="msg_permission_fail">获取权限失败：</string>
+    <string name="msg_found_device">发现新设备!</string>
+    <string name="msg_device_detached">usb设备拔出!</string>
+    <string name="unplugged_device">未插入设备</string>
+    <string name="unconnected">未连接</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="write">写</string>
+
+    <string name="tvData_Write">写入数据：</string>
+    <string name="rfid_mgs_killpwdtip">不能使用默认密码销毁</string>
+    <string name="must_be_hex_data">过滤的数据必须是十六进制数据</string>
+
+    <string name="uhf_msg_read_tag_fail">读取标签号失败</string>
+    <string name="uhf_msg_addr_not_null">地址不能为空</string>
+    <string name="uhf_msg_addr_must_decimal">地址必须为十进制数据</string>
+    <string name="uhf_msg_addr_must_len8">访问密码的长度必须为8位</string>
+    <string name="uhf_msg_len_not_null">长度不能为空</string>
+    <string name="uhf_msg_len_must_decimal">长度必须为十进制数据</string>
+    <string name="rfid_mgs_error_nohex">内容请输入十六进制数</string>
+    <string name="data_can_not_be_empty">过滤数据不能为空</string>
+    <string name="start_address_can_not_be_empty">过滤起始地址不能为空</string>
+    <string name="data_length_can_not_be_empty">过滤数据长度不能为空</string>
+    <string name="uhf_msg_write_must_len4x">写入数据的字符串长度必须为4的倍数</string>
+    <string name="uhf_msg_write_must_not_null">写入数据不能为空</string>
+    <string name="uhf_msg_write_succ">写入数据成功</string>
+    <string name="uhf_msg_write_fail">写入数据失败</string>
+    <string name="open_connect_first">请先打开连接</string>
+    <string name="rfid_mgs_locktip">提示：永久锁定后，无法解锁；永久解锁后，无法锁定</string>
+    <string name="uhf_msg_r2000_tip">此功能仅对R2000模块有效</string>
+
+    <string name="uhf_forever">是否永久</string>
+
+    <string name="uhf_title_kill" translatable="false">Kill</string>
+    <string name="uhf_title_access" translatable="false">Access</string>
+    <string name="uhf_title_uii" translatable="false">EPC</string>
+    <string name="uhf_title_tid" translatable="false">TID</string>
+    <string name="uhf_title_user" translatable="false">USER</string>
+
+    <string name="rfid_mgs_error_nopwd">密码不能为空</string>
+    <string name="rfid_mgs_error_nolockcode">锁定码不能为空</string>
+    <string name="rfid_mgs_kill_fail">销毁失败</string>
+    <string name="rfid_mgs_kill_succ">销毁成功</string>
+    <string name="rfid_mgs_lock_succ">锁定成功</string>
+    <string name="rfid_mgs_lock_fail">锁定失败</string>
+    <string name="voice_cues">声音提示</string>
+    <string name="setup_failed">设置失败</string>
+
+    <string name="action_stm32_ver">主板版本</string>
+    <string name="action_uhf_ver">UHF版本</string>
+    <string name="obtain_electricity">获取电量</string>
+    <string name="module_temperature">模块温度</string>
+    <string name="update_title_ok">确定</string>
+    <string name="action_uhf_bat">电量</string>
+    <string name="title_about_Temperature">温度</string>
+    <string name="ok">确定</string>
+    <string name="setting_succ">设置成功</string>
+    <string name="setting_fail">设置失败</string>
+    <string name="setup">设置</string>
+
+
+    <string name="uhf_msg_filter_addr_must_decimal">过滤的地址必须为十进制数据</string>
+    <string name="uhf_msg_filter_len_must_decimal">过滤的长度必须为十进制数据</string>
+    <string name="uhf_msg_set_filter_fail">设置过滤失败</string>
+    <string name="uhf_msg_set_filter_fail2">设置过滤失败(长度错误)</string>
+    <string name="uhf_msg_set_filter_succ">设置过滤成功</string>
+
+    <string name="msg_disable_succ">禁用成功</string>
+    <string name="msg_disable_fail">禁用失败</string>
+
+
+    <string name="btSetProtocol">设置协议</string>
+    <string name="btGetProtocol">获取协议</string>
+    <string name="tvProtocol">协议：</string>
+    <string name="uhf_msg_set_protocol_succ">设置协议成功</string>
+    <string name="uhf_msg_set_protocol_fail">设置协议失败</string>
+    <string name="uhf_msg_get_protocol_succ">获取协议成功</string>
+    <string name="uhf_msg_get_protocol_fail">获取协议失败</string>
+
+    <string name="start_address">起始地址：</string>
+    <string name="start_len">起始长度：</string>
+    <string name="erase_area">擦除区域：</string>
+    <string name="uhf_msg_tab_erase">擦除</string>
+
+    <string name="rfid_mgs_erase_fail">擦除失败</string>
+    <string name="rfid_mgs_erase_succ">擦除成功</string>
+
+
+    <string name="file_title_sel_file">选择文件</string>
+    <string name="file_title_sel_file_confirm">确认选择该文件?</string>
+    <string name="file_btn_confirm">确定</string>
+    <string name="file_btn_cancel">取消</string>
+    <string name="file_msg_cancel">取消选择</string>
+
+    <string name="title_R2000">R2000</string>
+    <string name="title_stm32">STM32</string>
+    <string name="title_stm32_version">stm32 version</string>
+    <string name="title_update">升级</string>
+
+    <string name="upload_title">上传测速 %s</string>
+    <string name="download_title">下载测速 %s</string>
+    <string name="action_back">返回</string>
+
+    <string name="exit">退出</string>
+    <string name="save">保存</string>
+
+    <string name="clear">清除</string>
+
+    <string name="up_one_level">..(返回上一级目录)</string>
+    <string name="current_dir">.(刷新)</string>
+    <string name="strFilePath">文件路径</string>
+    <string name="strBrowser">浏览...</string>
+    <string name="strPermissionDeny">无权限访问该目录</string>
+    <string name="title_activity_download">下载测速</string>
+    <string name="title_activity_upload">上传测速</string>
+    <string name="title_Ping">Ping测试</string>
+    <string name="title_Download">下载测速</string>
+    <string name="title_Upload">上传测速</string>
+    <string name="strUpload">上传</string>
+    <string name="up_msg_sel_file">请先选择文件</string>
+
+    <string name="app_msg_Upgrade">升级中...\n请勿退出，以免损坏硬件！</string>
+    <string name="uhf_msg_upgrade_fail">超高频升级失败</string>
+    <string name="uhf_msg_upgrade_succ">超高频升级成功</string>
+</resources>

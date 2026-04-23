@@ -1,0 +1,10 @@
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2025-09-08 05:06:08
+IsTerminating : True
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 UHFAPP.MainForm.OnDisconnectCallback(Int32 id)
+-----------------------end----------------------------

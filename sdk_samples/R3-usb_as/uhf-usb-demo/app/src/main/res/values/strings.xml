@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">UHF-usb</string>
+    <string name="title_2Dscan">Scan</string>
+    <string name="psam_title_clear">Clear</string>
+    <string name="title_format">Encoding Format</string>
+    <string name="tvInventoryName">识别标签</string>
+    <string name="tvCountOfTags">标签数&#160;&#160;</string>
+    <string name="rbInventorySingle">单步</string>
+    <string name="rbInventoryLoop">循环</string>
+    <string name="rbInventoryAnti">防碰撞</string>
+    <string name="tvQ">Q值：</string>
+    <string name="btInventory">开始识别</string>
+    <string name="title_stop_Inventory">停止识别</string>
+    <string name="tvTagUii">EPC</string>
+    <string name="tvTagLen">长度</string>
+    <string name="tvTagCount">Count</string>
+
+    <string name="btClear">Clear</string>
+
+    <string name="stop">Stop</string>
+    <string name="inventory">Inventory</string>
+    <string name="read_labels">Read labels</string>
+    <string name="write_labels">Write labels</string>
+    <string name="lock">Lock</string>
+    <string name="kill">Kill</string>
+    <string name="config">Config</string>
+
+    <string name="uhf_title_filter">filter</string>
+    <string name="button_enable_filter">Enable filter</string>
+    <string name="tvBank">Bank：</string>
+    <string name="tvPtr">Ptr：</string>
+    <string name="tvLen">Len：</string>
+
+    <string name="tvTagUii_Data">EPC：</string>
+    <string name="tvBank_Data">Block：</string>
+    <string name="tvPtr_Data">Ptr：</string>
+    <string name="tvLen_Data">Len：</string>
+    <string name="tvCount_Data">Count：</string>
+    <string name="tvData_Data">Data：</string>
+    <string name="tvStatus_Data">Status：</string>
+    <string name="tvAccessPwd">Access Pwd：</string>
+    <string name="tvOption_Read">Read Mode：</string>
+    <string name="ckLoop_Read">Auto</string>
+
+    <string name="tvData_Read">Data：</string>
+    <string name="btRead">Read</string>
+
+    <string name="tvMode">Working Mode：</string>
+    <string name="btSetFre">FrequencySet</string>
+    <string name="btGetFre">Read Frequency</string>
+
+    <string name="uhf_title_power">Output Power：</string>
+    <string name="uhf_btn_setpower">PowerSet </string>
+    <string name="uhf_btn_getpower">Read power</string>
+
+    <string name="title_buzzer">Buzzer</string>
+    <string name="title_buzzer_open">Buzzer Open</string>
+    <string name="title_buzzer_close">Buzzer Close</string>
+
+    <string name="GB_tag_lock">GB/GJB label lock</string>
+    <string name="storageArea">Storage area:</string>
+    <string name="user_area_number">Area number:</string>
+    <string name="configure">Configure:</string>
+    <string name="action">Action:</string>
+    <string name="tvLockCode">Lock Code：</string>
+    <string name="uhf_title_temp">Temporary mask</string>
+    <string name="uhf_title_perm">Permanent mask</string>
+    <string name="uhf_title_open">Open</string>
+    <string name="uhf_title_lock">Lock</string>
+
+    <string name="uhf_msg_set_frequency_fail">Set the frequency failure</string>
+    <string name="uhf_msg_set_frequency_succ">Set the frequency success</string>
+    <string name="uhf_msg_read_frequency_fail">Read the frequency failure</string>
+    <string name="uhf_msg_read_frequency_succ">Read the frequency success</string>
+    <string name="get_power_fail">Achieving power failure</string>
+    <string name="get_power_succ">Achieving power success</string>
+    <string name="set_power_fail">Failure to set power</string>
+    <string name="set_power_succ">Successful setting of power</string>
+
+    <string name="msg_open_success">Open succeed</string>
+    <string name="msg_open_fail">Open failed</string>
+    <string name="msg_close_ed">Closed</string>
+    <string name="msg_permission_success">Permission success:</string>
+    <string name="msg_permission_fail">Permission fail:</string>
+    <string name="msg_found_device">The usb device has attach!</string>
+    <string name="msg_device_detached">usb device has detach!</string>
+    <string name="unplugged_device">Unplugged device</string>
+    <string name="unconnected">Unconnected</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="write">Write</string>
+
+    <string name="tvData_Write">Write Data：</string>
+    <string name="rfid_mgs_killpwdtip">Can\'t use the default password</string>
+    <string name="must_be_hex_data">The filtered data must be hexadecimal</string>
+
+    <string name="uhf_msg_read_tag_fail">Read the Tag failed</string>
+    <string name="uhf_msg_addr_not_null">Address can\'t be empty</string>
+    <string name="uhf_msg_addr_must_decimal">Address must be a decimal data</string>
+    <string name="uhf_msg_addr_must_len8">The length of the access password must be 8</string>
+    <string name="uhf_msg_len_not_null">Length cannot be empty</string>
+    <string name="uhf_msg_len_must_decimal">Length must be a decimal data</string>
+    <string name="rfid_mgs_error_nohex">Please enter the hexadecimal number content</string>
+    <string name="data_can_not_be_empty">Filtering data cannot be empty</string>
+    <string name="start_address_can_not_be_empty">Filtration start address cannot be empty</string>
+    <string name="data_length_can_not_be_empty">Filtration data length cannot be empty</string>
+    <string name="uhf_msg_write_must_len4x">Write data of the length of the string must be in multiples of four</string>
+    <string name="uhf_msg_write_must_not_null">Write data can not be empty</string>
+    <string name="uhf_msg_write_succ">Write data successfully</string>
+    <string name="uhf_msg_write_fail">Write data failure</string>
+    <string name="open_connect_first">Please open the connection first</string>
+    <string name="rfid_mgs_locktip">Tips：After permanent lock, unable to unlock;After permanent unlock, not locked</string>
+    <string name="uhf_msg_r2000_tip">R2000 module only</string>
+
+    <string name="uhf_forever">Forever</string>
+
+    <string name="uhf_title_kill" translatable="false">Kill</string>
+    <string name="uhf_title_access" translatable="false">Access</string>
+    <string name="uhf_title_uii" translatable="false">EPC</string>
+    <string name="uhf_title_tid" translatable="false">TID</string>
+    <string name="uhf_title_user" translatable="false">USER</string>
+
+    <string name="rfid_mgs_error_nopwd">Password cannot be empty</string>
+    <string name="rfid_mgs_error_nolockcode">Lock code cannot be empty</string>
+    <string name="rfid_mgs_kill_fail">Kill failure</string>
+    <string name="rfid_mgs_kill_succ">Kill success</string>
+    <string name="rfid_mgs_lock_succ">Lock success</string>
+    <string name="rfid_mgs_lock_fail">Lock failure</string>
+    <string name="voice_cues">Voice cues</string>
+    <string name="setup_failed">Setup failed</string>
+
+    <string name="action_stm32_ver">Mainboard Version</string>
+    <string name="obtain_electricity">Obtain electricity</string>
+    <string name="module_temperature">Module temperature</string>
+    <string name="action_uhf_ver">UHF Version</string>
+    <string name="update_title_ok">confirm</string>
+    <string name="action_uhf_bat">Battery</string>
+    <string name="title_about_Temperature">Temperature</string>
+    <string name="ok">OK</string>
+
+    <string name="setting_succ">success</string>
+    <string name="setting_fail">failed</string>
+    <string name="setup">Set</string>
+
+    <string name="uhf_msg_filter_addr_must_decimal">The address of the filter must be decimal data.</string>
+    <string name="uhf_msg_filter_len_must_decimal">The length of the filter must be decimal data.</string>
+    <string name="uhf_msg_set_filter_fail">Set the filter failure</string>
+    <string name="uhf_msg_set_filter_fail2">Set the filter failure(length error)</string>
+    <string name="uhf_msg_set_filter_succ">Set the filter success</string>
+
+    <string name="msg_disable_succ">Disable success</string>
+    <string name="msg_disable_fail">Disable fail</string>
+
+    <string name="btSetProtocol">Set Protocol</string>
+    <string name="btGetProtocol">Get Protocol</string>
+    <string name="tvProtocol">Protocol：</string>
+
+
+    <string name="uhf_msg_set_protocol_succ">Set the protocol success</string>
+    <string name="uhf_msg_set_protocol_fail">Set the protocol failure</string>
+
+    <string name="uhf_msg_get_protocol_succ">Get the protocol success</string>
+    <string name="uhf_msg_get_protocol_fail">Get the protocol failure</string>
+
+
+    <string name="start_address">Start address:</string>
+    <string name="start_len">Start length:</string>
+    <string name="erase_area">Erase area:</string>
+    <string name="uhf_msg_tab_erase">Erase</string>
+
+    <string name="rfid_mgs_erase_fail">Erase fail</string>
+    <string name="rfid_mgs_erase_succ">Erase succ</string>
+    <string name="file_title_sel_file">Choose file</string>
+
+    <string name="file_title_sel_file_confirm">Are you sure to select the file?</string>
+    <string name="title_R2000">R2000</string>
+    <string name="title_stm32">STM32</string>
+    <string name="title_stm32_version">stm32 version</string>
+
+    <string name="file_btn_confirm">Confirm</string>
+    <string name="file_btn_cancel">Cancel</string>
+    <string name="file_msg_cancel">Cancel</string>
+    <string name="title_update">Update</string>
+
+    <string name="up_msg_sel_file">Please select a file first</string>
+
+    <string name="upload_title">Upload Tool %s</string>
+    <string name="download_title">Download Tool %s</string>
+    <string name="action_back">Back</string>
+
+    <string name="exit">Exit</string>
+    <string name="save">Save</string>
+
+    <string name="clear">Clear</string>
+
+    <string name="up_one_level">..(up)</string>
+    <string name="current_dir">.(refresh)</string>
+    <string name="strFilePath">File Path</string>
+    <string name="strBrowser">Browse</string>
+    <string name="strPermissionDeny">No permission</string>
+    <string name="title_activity_download">Download Tool</string>
+    <string name="title_activity_upload">Upload Tool</string>
+    <string name="title_Ping">Ping</string>
+    <string name="title_Download">Download</string>
+    <string name="title_Upload">Upload</string>
+    <string name="strUpload">Upload</string>
+
+    <string name="app_msg_Upgrade">Upgrading...</string>
+    <string name="uhf_msg_upgrade_fail">fail</string>
+    <string name="uhf_msg_upgrade_succ">success</string>
+</resources>

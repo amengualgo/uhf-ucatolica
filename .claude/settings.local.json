@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:koha-community.org)",
+      "WebFetch(domain:api.koha-community.org)",
+      "WebFetch(domain:wiki.koha-community.org)",
+      "Bash(cat)",
+      "Bash(sudo python3 *)",
+      "WebSearch",
+      "Read(//home/fox/**)",
+      "Read(//media/fox/**)",
+      "Bash(unrar x *)",
+      "Bash(sudo apt-get *)"
+    ]
+  }
+}

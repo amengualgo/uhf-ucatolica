@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayBank">
+        <item>RESERVED</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+
+    <string name="China_Standard_plus">中国标准增强模式(920~925MHz)</string>
+    <string name="ETSI_Standard">ETSI标准(865~868MHz)</string>
+    <string name="United_States_Standard">美国标准(902~928MHz)</string>
+    <string name="Fixed_Frequency_915MHz">定频模式(915MHz)</string>
+    <string name="Korea">韩国标准(917~923MHz)</string>
+    <string name="Japan">日本标准(952~953MHz)</string>
+    <string name="Morocco">摩洛哥标准</string>
+    <string name="China_Standard_840_845MHz">中国标准(840~845MHz)</string>
+    <string name="China_Standard_920_925MHz">中国标准(920~925MHz)</string>
+    <string name="South_Africa_915_919MHz">南非(915~919MHz)</string>
+    <string name="New_Zealand">新西兰</string>
+
+    <string-array name="arrayMode">
+        <item>@string/China_Standard_840_845MHz</item>
+        <item>@string/China_Standard_920_925MHz</item>
+        <item>@string/ETSI_Standard</item>
+        <item>@string/United_States_Standard</item>
+        <item>@string/Korea</item>
+        <item>@string/Japan</item>
+    </string-array>
+
+    <!-- 国标标签 Lock -->
+    <string-array name="storageArea">
+        <item>标签信息区</item>
+        <item>编码区</item>
+        <item>安全区</item>
+        <item>用户区</item>
+    </string-array>
+
+    <string-array name="userAreaNumbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="config">
+        <item>存储区属性</item>
+        <item>安全模式</item>
+    </string-array>
+
+    <string-array name="action1">
+        <item>可读可写</item>
+        <item>可读不可写</item>
+        <item>不可读可写</item>
+        <item>不可读不可写</item>
+    </string-array>
+
+    <string-array name="action2">
+        <item>保留</item>
+        <item>不需要鉴别</item>
+        <item>需要鉴别，不需要安全通信</item>
+        <item>需要鉴别，需要安全通信</item>
+    </string-array>
+</resources>
