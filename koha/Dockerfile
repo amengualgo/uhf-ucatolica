@@ -18,8 +18,8 @@ RUN curl -fsSL https://debian.koha-community.org/koha/gpg.asc | gpg --dearmor -o
     echo "deb [signed-by=/usr/share/keyrings/koha.gpg] https://debian.koha-community.org/koha stable main" \
     > /etc/apt/sources.list.d/koha.list
 
-# Instalar Koha
-RUN apt-get update && apt-get install -y koha-common && \
+# Instalar Koha y memcached (requerido por la REST API)
+RUN apt-get update && apt-get install -y koha-common memcached && \
     rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80 8080

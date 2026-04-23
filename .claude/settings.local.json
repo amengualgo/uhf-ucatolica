@@ -10,7 +10,8 @@
       "Read(//home/fox/**)",
       "Read(//media/fox/**)",
       "Bash(unrar x *)",
-      "Bash(sudo apt-get *)"
+      "Bash(sudo apt-get *)",
+      "Bash(docker exec *)"
     ]
   }
 }

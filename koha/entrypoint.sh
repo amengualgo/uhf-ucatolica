@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Iniciar memcached (requerido por la REST API y preferencias del sistema)
+service memcached start
+
 # Iniciar MariaDB
 service mariadb start
 sleep 3
@@ -48,6 +51,15 @@ chown -R www-data:www-data /var/cache/koha/
 chown -R www-data:www-data /var/lib/koha/library/
 chown -R www-data:www-data /var/log/koha/library/ 2>/dev/null || true
 chown -R www-data:www-data /etc/koha/sites/library/ 2>/dev/null || true
+
+# CGIPassAuth On — permite que Apache pase el header Authorization a la REST API de Koha
+grep -q 'CGIPassAuth' /etc/koha/apache-shared-intranet.conf 2>/dev/null || \
+    python3 -c "
+f='/etc/koha/apache-shared-intranet.conf'
+c=open(f).read()
+c=c.replace('AddHandler cgi-script .pl','AddHandler cgi-script .pl\n    CGIPassAuth On')
+open(f,'w').write(c)
+" 2>/dev/null || true
 
 # Habilitar sitio Koha y deshabilitar default
 a2ensite library 2>/dev/null || true
