@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 
 # Repositorio oficial de Koha
 RUN curl -fsSL https://debian.koha-community.org/koha/gpg.asc | gpg --dearmor -o /usr/share/keyrings/koha.gpg && \
-    echo "deb [signed-by=/usr/share/keyrings/koha.gpg] https://debian.koha-community.org/koha stable main" \
+    echo "deb [signed-by=/usr/share/keyrings/koha.gpg] https://debian.koha-community.org/koha 25.11 main" \
     > /etc/apt/sources.list.d/koha.list
 
 # Instalar Koha y memcached (requerido por la REST API)

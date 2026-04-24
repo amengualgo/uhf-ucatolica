@@ -1,0 +1,15 @@
+services:
+  bridge:
+    build: .
+    image: koha-bridge:latest
+    container_name: koha_bridge
+    restart: unless-stopped
+    ports:
+      - "8083:8083"
+    env_file: .env
+    networks:
+      - proxy-net
+
+networks:
+  proxy-net:
+    external: true

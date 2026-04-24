@@ -1,11 +1,12 @@
 services:
   koha:
     build: .
-    image: koha-ils:latest
+    image: koha-ils:25.11
     container_name: koha_app
     ports:
       - "8081:80"
       - "8082:8080"
+      - "6001:6001"
     volumes:
       - koha_data:/var/lib/koha
       - koha_logs:/var/log/koha
